@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      text-align: center;
+    }
+    h1 {
+      margin-top: 50px;
+      font-size: 2.5em;
+    }
+    p {
+      font-size: 1.2em;
+    }
+    a {
+      color: #bb86fc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .contacts {
+      margin-top: 30px;
+    }
+    .password-section {
+      margin-top: 50px;
+    }
+    input, button {
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+    }
+    input {
+      background-color: #222;
+      color: #fff;
+    }
+    button {
+      background-color: #bb86fc;
+      color: #121212;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #a15ce5;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ittriu's website</h1>
+  <p>This is a place to learn more about me and access some resources. (Привет, Илья!:)</p>
+
+  <div class="contacts">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/example" target="_blank">linkedin.com/in/example</a></p>
+    <p>GitHub: <a href="https://github.com/ittriu" target="_blank">github.com/ittriu</a></p>
+  </div>
+
+  <div class="password-section">
+    <h2>Enter Password to Access Files</h2>
+    <input type="password" id="password" placeholder="Enter password">
+    <button onclick="checkPassword()">Submit</button>
+  </div>
+
+  <script>
+    function checkPassword() {
+      const password = document.getElementById('password').value;
+      const correctPassword = "secure123"; // Replace with your password
+
+      if (password === correctPassword) {
+        window.location.href = "files.html"; // Redirect to the file storage page
+      } else {
+        alert("Incorrect password! Try again.");
+      }
+    }
+  </script>
+</body>
+</html>
