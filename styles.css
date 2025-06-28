@@ -1,3 +1,4 @@
+
 /* Reset & basic settings */
 * {
   margin: 0;
@@ -52,11 +53,13 @@ header {
   position: absolute;
   top: 20px;
   right: 20px;
+  z-index: 2; /* ensure it sits above the Vanta background */
 
   /* Frosted-glass background */
   background: rgba(73, 73, 71, 0.3);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  will-change: backdrop-filter;
 
   /* Border & rounding */
   border: 2px solid #169873;
@@ -197,3 +200,4 @@ header {
     padding: 15px;
   }
 }
+
