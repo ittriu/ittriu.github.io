@@ -1,0 +1,4 @@
+/* Same faces as the design system, but font-display:block (no swap flash) */
+@font-face{font-family:"0xProto";src:url("../_ds/ittriu-9d0454b7-7da3-479a-b2f6-c93586952be5/assets/fonts/0xProto-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"Monaspace Neon";src:url("../_ds/ittriu-9d0454b7-7da3-479a-b2f6-c93586952be5/assets/fonts/MonaspiceNeNerdFont-Medium.otf") format("opentype");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"Monaspace Neon";src:url("../_ds/ittriu-9d0454b7-7da3-479a-b2f6-c93586952be5/assets/fonts/MonaspiceNeNerdFont-Bold.otf") format("opentype");font-weight:700;font-style:normal;font-display:block}
