@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CV — ittriu</title>
+<link rel="preload" href="../_ds/ittriu-9d0454b7-7da3-479a-b2f6-c93586952be5/assets/fonts/0xProto-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../_ds/ittriu-9d0454b7-7da3-479a-b2f6-c93586952be5/assets/fonts/MonaspiceNeNerdFont-Medium.otf" as="font" type="font/otf" crossorigin>
+<link rel="preload" href="../_ds/ittriu-9d0454b7-7da3-479a-b2f6-c93586952be5/assets/fonts/MonaspiceNeNerdFont-Bold.otf" as="font" type="font/otf" crossorigin>
+<link rel="stylesheet" href="../css/fonts.css">
+<link rel="stylesheet" href="../_ds/ittriu-9d0454b7-7da3-479a-b2f6-c93586952be5/tokens/colors.css">
+<link rel="stylesheet" href="../_ds/ittriu-9d0454b7-7da3-479a-b2f6-c93586952be5/tokens/typography.css">
+<link rel="stylesheet" href="../_ds/ittriu-9d0454b7-7da3-479a-b2f6-c93586952be5/tokens/spacing.css">
+<link rel="stylesheet" href="../_ds/ittriu-9d0454b7-7da3-479a-b2f6-c93586952be5/tokens/effects.css">
+<link rel="stylesheet" href="../_ds/ittriu-9d0454b7-7da3-479a-b2f6-c93586952be5/tokens/base.css">
+<link rel="stylesheet" href="../css/site.css">
+</head>
+<body>
+<header class="hdr">
+  <a class="logo" href="index.html">ittriu</a>
+  <nav class="nav" aria-label="Sections" style="display:flex;flex-wrap:wrap;gap:4px;flex:1;min-width:0">
+      <a href="index.html">Home</a>
+      <a href="nautiluses.html">Nautiluses</a>
+      <a href="cv.html" aria-current="page">CV</a>
+  </nav>
+  <div style="display:flex;align-items:center;gap:8px;flex-shrink:0">
+    <div class="lang"><a class="l" href="../cv.html" hreflang="ru" lang="ru">RU</a><span class="on">EN</span></div>
+  </div>
+</header>
+
+<main>
+<section style="padding:48px 0 64px;display:flex;flex-direction:column;gap:40px">
+  <div style="display:flex;flex-direction:column;gap:16px;align-items:flex-start">
+    <span style="font:var(--type-label);letter-spacing:var(--track-label);color:var(--text-muted)">RESUME</span>
+    <h1 class="bb">CV</h1>
+    <a class="btn btn-s" href="../CV_Merenkov_2026.pdf" target="_blank" rel="noopener" download>Download PDF</a>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:0">
+    <h2 style="font:var(--type-label);letter-spacing:var(--track-label);color:var(--text-muted);padding-bottom:12px">01 / EDUCATION</h2>
+      <div style="display:grid;grid-template-columns:minmax(0,140px) minmax(0,1fr);gap:8px 24px;border-top:1px solid var(--line-strong);padding:14px 0">
+        <span style="font:var(--w-regular) 14px/1.4 var(--font-core);color:var(--text-muted)">2026 — now</span>
+        <div style="display:flex;flex-direction:column;gap:4px;min-width:0">
+          <span style="font:var(--w-bold) 15px/1.4 var(--font-core)">HSE University, FCS — MSc</span>
+          <span style="font:var(--w-regular) 15px/1.5 var(--font-core);color:var(--text-body)">Big data analytics</span>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:minmax(0,140px) minmax(0,1fr);gap:8px 24px;border-top:1px solid var(--line-strong);padding:14px 0">
+        <span style="font:var(--w-regular) 14px/1.4 var(--font-core);color:var(--text-muted)">2023 — 2024</span>
+        <div style="display:flex;flex-direction:column;gap:4px;min-width:0">
+          <span style="font:var(--w-bold) 15px/1.4 var(--font-core)">HSE University, FCS — minor</span>
+          <span style="font:var(--w-regular) 15px/1.5 var(--font-core);color:var(--text-body)">Neural network technologies</span>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:minmax(0,140px) minmax(0,1fr);gap:8px 24px;border-top:1px solid var(--line-strong);padding:14px 0">
+        <span style="font:var(--w-regular) 14px/1.4 var(--font-core);color:var(--text-muted)">2022 — 2026</span>
+        <div style="display:flex;flex-direction:column;gap:4px;min-width:0">
+          <span style="font:var(--w-bold) 15px/1.4 var(--font-core)">HSE University, FBB — BSc</span>
+          <span style="font:var(--w-regular) 15px/1.5 var(--font-core);color:var(--text-body)">Cell and molecular biotechnology</span>
+        </div>
+      </div>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:12px">
+    <h2 style="font:var(--type-label);letter-spacing:var(--track-label);color:var(--text-muted)">02 / THESIS</h2>
+    <div class="card">
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <span style="font:var(--w-bold) 17px/1.35 var(--font-core);letter-spacing:var(--track-title)">Rust linear algebra module for computational biology and statistical genomics</span>
+        <p style="margin:0;max-width:62ch;font:var(--w-regular) 15px/1.6 var(--font-core)">A Rust linear algebra library for phylogenetics: it computes P(t) = exp(Qt) faster and more accurately than nalgebra and faer on nucleotide, amino acid and codon substitution matrices.</p>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:0">
+    <h2 style="font:var(--type-label);letter-spacing:var(--track-label);color:var(--text-muted);padding-bottom:12px">03 / EXPERIENCE</h2>
+      <div style="display:grid;grid-template-columns:minmax(0,140px) minmax(0,1fr);gap:8px 24px;border-top:1px solid var(--line-strong);padding:14px 0">
+        <span style="font:var(--w-regular) 14px/1.4 var(--font-core);color:var(--text-muted)">2024 — 2026</span>
+        <div style="display:flex;flex-direction:column;gap:4px;min-width:0">
+          <span style="font:var(--w-bold) 15px/1.4 var(--font-core)">Computer science &amp; math tutor</span>
+          <span style="font:var(--w-regular) 15px/1.5 var(--font-core);color:var(--text-body)">Moscow Montessori School</span>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:minmax(0,140px) minmax(0,1fr);gap:8px 24px;border-top:1px solid var(--line-strong);padding:14px 0">
+        <span style="font:var(--w-regular) 14px/1.4 var(--font-core);color:var(--text-muted)">2023 — 2024</span>
+        <div style="display:flex;flex-direction:column;gap:4px;min-width:0">
+          <span style="font:var(--w-bold) 15px/1.4 var(--font-core)">Research assistant</span>
+          <span style="font:var(--w-regular) 15px/1.5 var(--font-core);color:var(--text-body)">Kurchatov Genomic Center, NGS sequencing lab</span>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:minmax(0,140px) minmax(0,1fr);gap:8px 24px;border-top:1px solid var(--line-strong);padding:14px 0">
+        <span style="font:var(--w-regular) 14px/1.4 var(--font-core);color:var(--text-muted)">2022 — now</span>
+        <div style="display:flex;flex-direction:column;gap:4px;min-width:0">
+          <span style="font:var(--w-bold) 15px/1.4 var(--font-core)">Competitive robotics instructor</span>
+          <span style="font:var(--w-regular) 15px/1.5 var(--font-core);color:var(--text-body)"></span>
+        </div>
+      </div>
+  </div>
+
+  <div style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 24px;border-top:1px solid var(--line-strong);padding-top:14px">
+    <h2 style="font:var(--type-label);letter-spacing:var(--track-label);color:var(--text-muted)">04 / LANGUAGES</h2>
+    <span style="font:var(--w-bold) 14px/1.4 var(--font-core);letter-spacing:var(--track-flush)">English — C1 · TOEFL iBT 110 / 120</span>
+  </div>
+</section>
+</main>
+
+<footer style="border-top:1px solid var(--line-strong);padding:20px 24px;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between">
+  <span style="font:var(--type-label);letter-spacing:var(--track-label);color:var(--text-muted)">ITTRIU — ANTON, DATA ANALYST, MOSCOW</span>
+  <span style="font:var(--type-label);letter-spacing:var(--track-label);color:var(--text-muted)">2026</span>
+</footer>
+</body>
+</html>
